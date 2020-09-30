@@ -1,0 +1,11 @@
+pageFactory/HomePage.class
+pageFactory/CartPage.class
+baseClass/BaseClass.class
+pageFactory/OrderSummary.class
+testCases/TC1VerifyStdDeliveryFPOrderPlacing.class
+baseClass/GenericMethods.class
+pageFactory/AddressPage.class
+pageFactory/LoginPage.class
+pageFactory/PaymentsPage.class
+pageFactory/DeliverySlotPage.class
+baseClass/AppSetup.class
