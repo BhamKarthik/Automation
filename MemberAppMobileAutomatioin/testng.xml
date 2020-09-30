@@ -1,0 +1,17 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EasyDay">
+	<test name="EasyDayMobile">
+		<parameter name="deviceName" value="emulator-5554" />
+		<parameter name="platformVersion" value="10.0" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="" />
+		<classes>
+			<class name="testCases.TC1VerifyStdDeliveryFPOrderPlacing">
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
+
