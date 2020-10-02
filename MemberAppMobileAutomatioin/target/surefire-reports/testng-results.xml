@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="EasyDay" duration-ms="48827" started-at="2020-09-30T20:34:44Z" finished-at="2020-09-30T20:35:33Z">
+  <suite name="EasyDay" duration-ms="39704" started-at="2020-09-30T20:55:51Z" finished-at="2020-09-30T20:56:31Z">
     <groups>
     </groups>
-    <test name="EasyDayMobile" duration-ms="48827" started-at="2020-09-30T20:34:44Z" finished-at="2020-09-30T20:35:33Z">
+    <test name="EasyDayMobile" duration-ms="39704" started-at="2020-09-30T20:55:51Z" finished-at="2020-09-30T20:56:31Z">
       <class name="testCases.TC1VerifyStdDeliveryFPOrderPlacing">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="beforeSuite" is-config="true" duration-ms="296" started-at="2020-09-30T20:34:44Z" finished-at="2020-09-30T20:34:44Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="beforeSuite" is-config="true" duration-ms="223" started-at="2020-09-30T20:55:51Z" finished-at="2020-09-30T20:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-30T20:34:44Z" finished-at="2020-09-30T20:34:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-30T20:55:51Z" finished-at="2020-09-30T20:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="beforeClass" is-config="true" duration-ms="24546" started-at="2020-09-30T20:34:44Z" finished-at="2020-09-30T20:35:09Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="beforeClass" is-config="true" duration-ms="25334" started-at="2020-09-30T20:55:51Z" finished-at="2020-09-30T20:56:17Z">
           <params>
             <param index="0">
               <value>
@@ -41,27 +41,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="testCase" duration-ms="24251" started-at="2020-09-30T20:35:09Z" finished-at="2020-09-30T20:35:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-30T20:35:09Z" finished-at="2020-09-30T20:35:09Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-30T20:56:17Z" finished-at="2020-09-30T20:56:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-30T20:35:33Z" finished-at="2020-09-30T20:35:33Z">
+        <test-method status="PASS" signature="testCase()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="testCase" duration-ms="14342" started-at="2020-09-30T20:56:17Z" finished-at="2020-09-30T20:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-09-30T20:56:31Z" finished-at="2020-09-30T20:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-09-30T20:35:33Z" finished-at="2020-09-30T20:35:33Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-09-30T20:56:31Z" finished-at="2020-09-30T20:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-30T20:35:33Z" finished-at="2020-09-30T20:35:33Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-30T20:56:31Z" finished-at="2020-09-30T20:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@1d76aeea]" name="afterSuite" is-config="true" duration-ms="613" started-at="2020-09-30T20:35:33Z" finished-at="2020-09-30T20:35:34Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC1VerifyStdDeliveryFPOrderPlacing@79ad8b2f]" name="afterSuite" is-config="true" duration-ms="828" started-at="2020-09-30T20:56:31Z" finished-at="2020-09-30T20:56:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
