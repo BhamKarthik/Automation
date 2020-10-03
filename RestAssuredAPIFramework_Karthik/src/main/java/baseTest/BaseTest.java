@@ -8,7 +8,7 @@ import utils.FileAndEnv;
 
 public class BaseTest extends ExtentReportListner{
 	@BeforeClass
-	public void BaseTest() {
+	public void beforeClass() {
 		//RestAssured.baseURI = "13.235.191.207:9211/cart/api/v1/";
 		RestAssured.baseURI= FileAndEnv.envAndFile().get("ServerURL");
 	}

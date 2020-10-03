@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APIAutomation">
+	<test name="APIRestAssuredAutomation">
+	<parameter name="env" value="staging" />
+		<classes>
+			<class name="testCases.CartApiAutomation"></class>
+			<class name="testCases.PDPAPIAutomation"></class>
+		</classes>
+	</test>
+</suite>
+
+
+

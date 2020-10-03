@@ -7,8 +7,7 @@
 		<parameter name="platformName" value="Android" />
 		<parameter name="udid" value="" />
 		<classes>
-			<class name="testCases.TC1VerifyStdDeliveryFPOrderPlacing">
-			</class>
+			<class name="testCases.TC1VerifyStdDeliveryFPOrderPlacing"> </class>
 		</classes>
 	</test>
 </suite>

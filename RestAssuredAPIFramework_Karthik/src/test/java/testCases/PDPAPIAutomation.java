@@ -1,10 +1,10 @@
-package com.RestAssuredAPIFramework;
+package testCases;
 
 import org.testng.annotations.Test;
 
 import baseTest.BaseTest;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
+
 
 
 public class PDPAPIAutomation  extends BaseTest{
@@ -23,7 +23,8 @@ public class PDPAPIAutomation  extends BaseTest{
 		.when()
 			.get("/{article_scode}")
 		.then()
-			.assertThat().statusCode(200);
+			.assertThat().statusCode(404);
+		System.out.println("PDPAPIAutomation done");
 		
 		//System.out.println("Status_code="+response.getStatusCode());
 	}
