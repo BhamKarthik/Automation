@@ -9,11 +9,15 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">APIAutomation</th></tr>
-<tr><td><a href="#t0">APIRestAssuredAutomation</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">4,084</td><td></td><td></td></tr>
+<tr><td><a href="#t0">APIRestAssuredAutomation</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,647</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">APIAutomation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">APIRestAssuredAutomation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.CartApiAutomation</td><td><a href="#m0">getCart</a></td><td rowspan="1">1601724271623</td><td rowspan="1">2908</td></tr><tr class="passedodd"><td rowspan="1">testCases.PDPAPIAutomation</td><td><a href="#m1">getPDP</a></td><td rowspan="1">1601724274539</td><td rowspan="1">383</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">APIAutomation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">APIRestAssuredAutomation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.PDPAPI</td><td><a href="#m0">getPDP</a></td><td rowspan="1">1602237421730</td><td rowspan="1">2620</td></tr><tr><th colspan="4">APIRestAssuredAutomation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.ClearCartAPI</td><td><a href="#m1">clearCart</a></td><td rowspan="1">1602237425943</td><td rowspan="1">205</td></tr><tr class="passedodd"><td rowspan="1">testCases.GetCartAPI</td><td><a href="#m2">getCart</a></td><td rowspan="1">1602237424360</td><td rowspan="1">1579</td></tr></tbody>
 </table>
-<h2>APIRestAssuredAutomation</h2><h3 id="m0">testCases.CartApiAutomation#getCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.PDPAPIAutomation#getPDP</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>APIRestAssuredAutomation</h2><h3 id="m0">testCases.PDPAPI#getPDP</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [417]
+	at apiVerifications.APIVerification.responseCodeValidation(APIVerification.java:17)
+	at testCases.PDPAPI.getPDP(PDPAPI.java:22)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.ClearCartAPI#clearCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.GetCartAPI#getCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

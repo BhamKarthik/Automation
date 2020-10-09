@@ -20,7 +20,7 @@ public class ExtentReportListner implements ITestListener{
 			File files[]=directory.listFiles();
 			if(null!=files){
 				for(int i=0;i<files.length;i++){
-					System.out.println(files[i].getName());
+				//	System.out.println(files[i].getName());
 					if(files[i].isDirectory()){
 						deleteDirectoty(files[i]);
 					}else {
@@ -44,8 +44,8 @@ public class ExtentReportListner implements ITestListener{
 	public void onTestStart(ITestResult result) {
 		test=reports.startTest(result.getMethod().getMethodName());
 		test.log(LogStatus.INFO,result.getMethod().getMethodName());
-	System.out.println(result.getTestClass().getTestName());
-	System.out.println(result.getMethod().getMethodName());
+	//System.out.println(result.getTestClass().getTestName());
+	//System.out.println(result.getMethod().getMethodName());
 		
 	}
 
@@ -72,7 +72,7 @@ public class ExtentReportListner implements ITestListener{
 	}
 
 	public void onStart(ITestContext context) {
-		System.out.println(ReportLocation+" ReportLocation");
+		//System.out.println(ReportLocation+" ReportLocation");
 		reports=new ExtentReports(ReportLocation+"ExtentReport.html");
 		test=reports.startTest("");
 	}

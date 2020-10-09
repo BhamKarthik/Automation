@@ -4,8 +4,9 @@
 	<test name="APIRestAssuredAutomation">
 	<parameter name="env" value="staging" />
 		<classes>
-			<class name="testCases.CartApiAutomation"></class>
-			<class name="testCases.PDPAPIAutomation"></class>
+			<class name="testCases.PDPAPI"></class>
+			<class name="testCases.GetCartAPI"></class>
+			<class name="testCases.ClearCartAPI"></class>
 		</classes>
 	</test>
 </suite>

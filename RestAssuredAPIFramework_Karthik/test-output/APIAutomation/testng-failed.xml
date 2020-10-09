@@ -2,19 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [APIAutomation]">
   <test thread-count="5" name="APIRestAssuredAutomation(failed)">
+    <parameter name="env" value="staging"/>
     <classes>
-      <class name="testCases.PDPAPIAutomation">
+      <class name="testCases.PDPAPI">
         <methods>
+          <include name="beforeClass"/>
           <include name="getPDP"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- testCases.PDPAPIAutomation -->
-      <class name="testCases.CartApiAutomation">
-        <methods>
-          <include name="beforeClass"/>
-          <include name="getCart"/>
-        </methods>
-      </class> <!-- testCases.CartApiAutomation -->
+      </class> <!-- testCases.PDPAPI -->
     </classes>
   </test> <!-- APIRestAssuredAutomation(failed) -->
 </suite> <!-- Failed suite [APIAutomation] -->

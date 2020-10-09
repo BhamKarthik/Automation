@@ -12,12 +12,13 @@ import utils.ExtentReportListner;
 
 public class APIVerification extends ExtentReportListner {
 
-	public static void responseCodeVerification(Response response, int statuscode) {
+	public static void responseCodeValidation(Response response, int statuscode) {
 		try {
-			assertEquals(statuscode, response.statusCode());
-			test.log(LogStatus.PASS, "Successfully " + response.statusCode());
+			assertEquals(response.getStatusCode(),statuscode);
+			test.log(LogStatus.PASS, "Test is pass");
+			test.log(LogStatus.INFO, "Test is Ended");
 		} catch (Exception ex) {
-			test.log(LogStatus.FAIL, "status code" + response.statusCode());
+			test.log(LogStatus.FAIL, ex.fillInStackTrace());
 		}
 
 	}
@@ -25,12 +26,14 @@ public class APIVerification extends ExtentReportListner {
 	public static void responseKeyValidationFromArray(Response response, String title) {
 		try {
 			JSONArray jarray = new JSONArray(response.getBody().asString());
-			for (int i = 0; i < jarray.length(); i++) {
-				System.out.println(jarray.get(i));
+			for (int i = 0; i < jarray.length(); i++) {			
+				JSONObject obj = jarray.getJSONObject(i);
+				test.log(LogStatus.PASS, "Validated values is ="+obj.get("title"));	
 			}
 			test.log(LogStatus.PASS, "Test is pass");
 			test.log(LogStatus.INFO, "Test is Ended");
 		} catch (Exception ex) {
+			test.log(LogStatus.FAIL, ex.fillInStackTrace());
 		}
 	}
 
@@ -42,6 +45,7 @@ public class APIVerification extends ExtentReportListner {
 				test.log(LogStatus.INFO, "Test is Ended");
 			}
 		} catch (Exception ex) {
+			test.log(LogStatus.FAIL, ex.fillInStackTrace());
 		}
 	}
 
@@ -51,6 +55,14 @@ public class APIVerification extends ExtentReportListner {
 
 			test.log(LogStatus.INFO, "Test is Ended in=" + time);
 		} catch (Exception ex) {
+			test.log(LogStatus.FAIL, ex.fillInStackTrace());
+		}
+	}
+	public static void responseLog(Response response) {
+		try {
+			test.log(LogStatus.INFO, "Test is Ended in=" + response.asString());
+		} catch (Exception ex) {
+			test.log(LogStatus.FAIL, ex.fillInStackTrace());
 		}
 	}
 
